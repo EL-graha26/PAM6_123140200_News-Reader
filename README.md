@@ -1,30 +1,30 @@
-# 📰 Graha News
+#Graha News
 
 **Graha News** adalah aplikasi pembaca berita modern dan elegan yang dibangun menggunakan **Kotlin Multiplatform (KMP)** dan **Jetpack Compose**. Aplikasi ini didesain dengan antarmuka yang bersih (terinspirasi dari Apple iOS dan Samsung One UI) serta menampilkan berita-berita aktual dari portal terpercaya di Indonesia secara *real-time*.
 
 ---
 
-## 👨‍💻 Identitas Mahasiswa
-**Tugas Mata Kuliah:** Pengembangan Aplikasi Mobile  
+##  Identitas Mahasiswa
+**Tugas Mata Kuliah:** Tugas 6 Pengembangan Aplikasi Mobile  
 **Nama:** Muhammad Piela Nugrhaa  
 **NIM:** 123140200  
 
 ---
 
-## ✨ Fitur Utama (Core Features)
+##Fitur Utama (Core Features)
 Aplikasi ini memiliki 4 fitur pilar utama yang dapat diakses melalui *Bottom Navigation Bar*:
 
-1. 🏠 **Home (Beranda)**
+**Home (Beranda)**
    - Menampilkan *Breaking News* (Berita Utama) pada bagian atas (Hero Section).
    - Menyajikan daftar berita terbaru (Latest News) secara terstruktur.
    - Menggunakan *Pull-to-Refresh* untuk memperbarui data.
-2. 🔍 **Explore (Eksplorasi)**
+     **Explore (Eksplorasi)**
    - Kolom pencarian dinamis yang terhubung langsung dengan **NewsAPI**.
    - Pengguna dapat mencari topik berita apa saja secara *real-time*.
-3. 📈 **Trending**
+      **Trending**
    - Menampilkan artikel berita terpopuler saat ini.
    - Dilengkapi dengan *Chips* kategori topik hangat (misal: #Teknologi, #Ekonomi).
-4. 🔖 **Bookmark (Tersimpan)**
+      **Bookmark (Tersimpan)**
    - Sistem penyimpanan artikel lokal tanpa memerlukan internet.
    - Pengguna dapat menyimpan artikel dari *Detail Screen* dan menghapusnya langsung dari halaman Bookmark.
 
@@ -34,14 +34,15 @@ Aplikasi ini memiliki 4 fitur pilar utama yang dapat diakses melalui *Bottom Nav
 
 ---
 
-## 📸 Tampilan Layar (Screenshots)
+##  Tampilan Layar (Screenshots)
 
-> **Catatan:** Ganti teks dan tautan di bawah ini dengan tangkapan layar (Screenshot) asli aplikasi saat Anda jalankan di Emulator/HP Anda.
 
 <p align="center">
-  <img src="https://via.placeholder.com/250x500.png?text=Screenshot+Home" width="250" title="Home Screen">
-  <img src="https://via.placeholder.com/250x500.png?text=Screenshot+Explore" width="250" title="Explore Screen">
-  <img src="https://via.placeholder.com/250x500.png?text=Screenshot+Detail" width="250" title="Detail Screen">
+  <img width="180" height="400" alt="image" src="https://github.com/user-attachments/assets/9feea37c-2e50-42cf-8372-b03ab9e486de" />
+
+  <img width="180" height="400" alt="image" src="https://github.com/user-attachments/assets/62c57710-1793-43c7-b55e-25a7aa0d658e" />
+
+  <img width="180" height="400" alt="image" src="https://github.com/user-attachments/assets/e85fb1ae-50e2-4719-b14c-9273ead7047e" />
 </p>
 
 1. **Gambar 1:** Tampilan *Home Screen* dengan *Hero Card* dan daftar berita terbaru.
@@ -50,16 +51,16 @@ Aplikasi ini memiliki 4 fitur pilar utama yang dapat diakses melalui *Bottom Nav
 
 ---
 
-## 🎥 Video Demonstrasi
+##  Video Demonstrasi
 
-> **Catatan:** Silakan rekam layar HP/Emulator Anda saat menjalankan keempat fitur di atas, unggah ke YouTube/Google Drive, lalu letakkan *link*-nya di bawah ini.
 
-[![Tonton Video Demo](https://img.youtube.com/vi/ID_VIDEO_YOUTUBE/0.jpg)](https://www.youtube.com/watch?v=ID_VIDEO_YOUTUBE)
-*(Klik gambar di atas untuk menonton video demo aplikasi)*
+
+https://github.com/user-attachments/assets/f128f373-bd78-4f4b-bf01-91c22e725f1a
+
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 Proyek ini mengimplementasikan konsep-konsep *Modern Android Development (MAD)*:
 * **UI Framework:** Jetpack Compose Multiplatform
 * **Architecture:** MVVM (Model-View-ViewModel) + Clean Architecture
@@ -68,7 +69,7 @@ Proyek ini mengimplementasikan konsep-konsep *Modern Android Development (MAD)*:
 * **Image Loading:** Coil3 (Asynchronous Image Loading)
 * **API:** [NewsAPI.org](https://newsapi.org/)
 
-## 🚀 Cara Menjalankan Aplikasi
+##  Cara Menjalankan Aplikasi
 1. Lakukan *Clone* atau unduh *source code* proyek ini.
 2. Buka proyek menggunakan **Android Studio** versi terbaru (Minimal versi Ladybug/Koala).
 3. Tunggu hingga proses *Sync Gradle* selesai.
@@ -76,4 +77,3 @@ Proyek ini mengimplementasikan konsep-konsep *Modern Android Development (MAD)*:
 5. Klik tombol ▶️ **Run** (Shift + F10).
 
 ---
-*Dibuat untuk memenuhi tugas akhir / evaluasi mata kuliah Pengembangan Aplikasi Mobile.*
