@@ -8,6 +8,7 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeHotReload)
+    alias(libs.plugins.kotlinSerialization)
 }
 
 kotlin {
@@ -44,11 +45,13 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.ktor.client.okhttp)
         }
         commonMain.dependencies {
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
+            implementation(compose.materialIconsExtended)
             implementation(libs.compose.ui)
             implementation(libs.compose.components.resources)
             implementation(libs.compose.uiToolingPreview)
@@ -56,13 +59,26 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtimeCompose)
             implementation(projects.shared)
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.kotlinx.json)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.coil.compose)
+            implementation(libs.coil.network.ktor)
+            implementation(libs.voyager.navigator)
+            implementation(libs.voyager.tab.navigator)
+            implementation(libs.voyager.transitions)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
+        iosMain.dependencies {
+            implementation(libs.ktor.client.darwin)
+        }
         jvmMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutinesSwing)
+            implementation(libs.ktor.client.okhttp)
         }
     }
 }
